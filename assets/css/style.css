@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+:root {
+--Yellow: hsl(47, 88%, 63%);
+--White: hsl(0, 0%, 100%);
+--Gray-500: hsl(0, 0%, 42%);
+--Gray-950: #121212;
+}
+
+body {
+    font-size: 1em;
+  font-family: "Figtree", serif;
+   background: var(--Yellow);
+}
+
+/*mobile first*/
+
+#card--container {
+    width: 329px;
+    height: 500px;
+    background-color: var(--White);
+    border: 1px solid rgba(18,18,18,1);
+    box-shadow: 7px 7px 0px 1px rgba(18,18,18,1);
+    border-radius: 10px;
+    margin: 3.3em auto;
+}
+
+#card--image--container {
+    padding: 1em;
+}
+
+ #sp img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+#card--content--information, #profile-row {
+    padding:  0.9em 1.3em ;
+}
+
+
+#card--content--information > #yellow-pop-up {
+    width: 70px;
+    padding: .5em;
+    border-radius: 7px;
+    background-color: var(--Yellow);
+    margin-bottom: 1em;
+}
+
+#yellow-pop-up #pop-up-txt {
+    color: var(--Gray-950);
+    font-weight:800;
+}
+
+#card--content--information > #sub-up-txt {
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+
+#card--content--title {
+    font-size: 1.7em;
+    margin-bottom: .5em;
+}
+
+#card--content--information-block {
+    font-weight: 500;
+    line-height: 1.7em;
+    color: var(--Gray-500);
+}
+
+#profile-row {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+#profile-container-image > img {
+    width: 55%;
+}
+
+#profile-name {
+    margin-left: -1em;
+    font-weight: 800;
+    color: var(--Gray-950);
+}
+
+@media (min-width: 1349px)  {
+    #card--container {
+        margin:5.5em auto 0 auto ;  
+        transform: scale(1.1);
+    }
+    
+}
