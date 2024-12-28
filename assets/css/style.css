@@ -47,6 +47,7 @@ body {
 
 #card--content--information > #yellow-pop-up {
     width: 70px;
+    max-width: auto;
     padding: .5em;
     border-radius: 7px;
     background-color: var(--Yellow);
