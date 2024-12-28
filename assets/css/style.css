@@ -22,7 +22,8 @@ body {
 
 #card--container {
     width: 329px;
-    height: 500px;
+    min-height: 500px;
+    max-height: auto;
     background-color: var(--White);
     border: 1px solid rgba(18,18,18,1);
     box-shadow: 7px 7px 0px 1px rgba(18,18,18,1);
