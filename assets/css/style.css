@@ -22,17 +22,17 @@ body {
 
 #card--container {
     width: 329px;
-    min-height: 500px;
+    min-height: 300px;
     max-height: auto;
     background-color: var(--White);
     border: 1px solid rgba(18,18,18,1);
     box-shadow: 7px 7px 0px 1px rgba(18,18,18,1);
-    border-radius: 10px;
+    border-radius: 13px;
     margin: 5.2em auto 0 auto;
 }
 
 #card--image--container {
-    padding: 1em;
+    padding: 1.5em 1.5em 0.5em 1.5em;
 }
 
  #sp img{
@@ -41,7 +41,7 @@ body {
 }
 
 #card--content--information, #profile-row {
-    padding:  0.9em 1.3em ;
+    padding:  0.4em 1.3em ;
 }
 
 
@@ -70,7 +70,7 @@ body {
 
 #card--content--information-block {
     font-weight: 500;
-    line-height: 1.7em;
+    line-height: 1.3em;
     color: var(--Gray-500);
 }
 
@@ -82,7 +82,7 @@ body {
 }
 
 #profile-container-image > img {
-    width: 55%;
+    width: 50%;
 }
 
 #profile-name {
