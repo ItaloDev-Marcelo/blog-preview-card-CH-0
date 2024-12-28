@@ -98,3 +98,11 @@ body {
     }
     
 }
+
+@media (min-width: 1440px)  {
+    #card--container {
+        margin:10em auto 0 auto ;  
+        transform: scale(1.1);
+    }
+    
+}
