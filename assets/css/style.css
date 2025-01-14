@@ -22,13 +22,13 @@ body {
 
 #card--container {
     width: 329px;
-    min-height: 325px;
+    min-height: 340px;
     max-height: auto;
     background-color: var(--White);
     border: 1px solid rgba(18,18,18,1);
     box-shadow: 7px 7px 0px 1px rgba(18,18,18,1);
     border-radius: 13px;
-    margin: 7em auto 0 auto;
+    margin: 8.5em auto 0 auto;
 }
 
 #card--image--container {
